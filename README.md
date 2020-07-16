@@ -31,10 +31,8 @@ To execute the code, run the following command:
 
 options:
 
---path_to_video 	default='./Videos/MOT16-10-raw.webm'		=> path to the input video
-
---path_to_stack 	default='./images/new_frames/video1'	 	=> path to the output images stack
-
---path_to_save	 	default='./Final_videos/final_video9.avi'	=> path to the output video
---show		 	default=False, 					=> show each frame after processing
+	--path_to_video 	default='./Videos/MOT16-10-raw.webm'		=> path to the input video
+	--path_to_stack 	default='./images/new_frames/video1'	 	=> path to the output images stack
+	--path_to_save	 	default='./Final_videos/final_video9.avi'	=> path to the output video
+	--show		 	default=False					=> show each frame after processing
 
