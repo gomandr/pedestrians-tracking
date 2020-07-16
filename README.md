@@ -1,4 +1,4 @@
-# Pedestrians identification and tracking 
+# Pedestrians identification and tracking - Class project - June 2020
 ### Students : André Gomes, Yann Martinson, Sylvain Pietropaolo
 
 This final project (Milestone 3) combines two previous projects where models where trained for pedestrian detection (Milestone 1) and re-identification (Milestone 2). The objective is here to take a video as input and output the same video with labelled bounding boxes on the different pedestrians tracked.
