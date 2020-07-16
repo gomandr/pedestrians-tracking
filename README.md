@@ -7,10 +7,10 @@ This final project (Milestone 3) combines two previous projects where models whe
 Three examples of the work done by the proposed algorithm are found in folder Final_videos. 
 
 ## Installation
-The libraries in requirements.txt are neeeded to properly execute the code. 
+The libraries in requirements.txt are needed to properly execute the code. 
 
 ## GPU or not
-The code is written in order to run without GPU. To aceelerate the execution, small changes
+The code is written in order to run without GPU. To accelerate the execution, small changes
 should be done in the code.
 
 ## Get trained models
