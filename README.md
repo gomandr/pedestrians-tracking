@@ -3,6 +3,9 @@
 
 This final project (Milestone 3) combines two previous projects where models where trained for pedestrian detection (Milestone 1) and re-identification (Milestone 2). The objective is here to take a video as input and output the same video with labelled bounding boxes on the different pedestrians tracked.
 
+## Credits
+Milestone 1 and Milestone 2 work are heavily based on previous work available online. For further details, please read the associated reports. 
+
 ## Examples
 Three examples of the work done by the proposed algorithm are found in folder Final_videos. 
 ![Demo](demo/demo.gif)
