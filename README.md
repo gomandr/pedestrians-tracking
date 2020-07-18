@@ -5,6 +5,7 @@ This final project (Milestone 3) combines two previous projects where models whe
 
 ## Examples
 Three examples of the work done by the proposed algorithm are found in folder Final_videos. 
+![Demo](demo/demo.gif)
 
 ## Installation
 The libraries in requirements.txt are needed to properly execute the code. 
