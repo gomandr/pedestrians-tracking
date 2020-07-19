@@ -18,8 +18,7 @@ Three examples of the work done by the proposed algorithm are found in folder Fi
 The libraries in requirements.txt are needed to properly execute the code. 
 
 ## GPU or not
-The code is written in order to run without GPU. To accelerate the execution, small changes
-should be done in the code.
+The code for Milestone 3 is written in order to run without GPU. To accelerate the execution using GPUs, the code can easily be adapted.
 
 ## Get trained models
 Identification: the trained model (resnet50_ped) on ECP dataset can be found here:
