@@ -1,5 +1,8 @@
 ## Faster R-CNN for pedestrians detection
 
+### Credits
+Based on existing Pytorch tutorial available under: https://colab.research.google.com/github/pytorch/vision/blob/temp-tutorial/tutorials/torchvision_finetuning_instance_segmentation.ipynb.
+
 ### Installation
 Requires the following libraries:
 
