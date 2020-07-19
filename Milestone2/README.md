@@ -1,5 +1,8 @@
 ## Re-ID of pedestrians
 
+### Credits
+Adapted from the work of Zhedong Zheng: https://github.com/layumi/Person_reID_baseline_pytorch
+
 ### Installation
 The following libraries are neeeded:
 
