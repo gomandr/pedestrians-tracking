@@ -1,6 +1,6 @@
 ## Re-ID of pedestrians
 
-## Installation
+### Installation
 The following libraries are neeeded:
 
 	numpy == 1.17.5
@@ -10,7 +10,7 @@ The following libraries are neeeded:
         pandas
 	torch==1.5.0+cu92 torchvision==0.6.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
 	
-## Train
+### Train
 To train a new model, run the command :
 
 	python3 train.py --gpu_ids <#> --name <name_of_model> --data_dir <training_dataset_dir> -- save_dir <save_model_dir> --PCB
@@ -29,10 +29,11 @@ additionnal options:
 	--droprate, default=0.5, type=float, 		=> drop rate
 
 By default, the backbone model will be Resnet50, for others models, add command: 
+
 	--use_dense, 	=> use densenet121 backbone
 	--PCB, 		=> use PCB+ResNet50 backbone
 
-## Test + Evaluate
+### Test + Evaluate
 To test the model, run for example the command :
 
 	python3 test.py --gpu_ids <#> --name <name_of_model_to_test> --data_dir <testing_dataset_dir> -- save_dir <model_dir> --PCB
@@ -47,6 +48,7 @@ additionnal options:
 	--batchsize, default=32, type=int, 		=> batchsize
 
 If the tested model is from a different backbone than Resnet50, add commands:
+
 	--use_dense, 	=> use densenet121 backbone
 	--PCB, 		=> use PCB+ResNet50 backbone
 
